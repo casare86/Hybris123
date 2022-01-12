@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module descriptorType="CUSTOM" importedAsReadOnly="false" type="JAVA_MODULE" version="4">
+  <component name="NewModuleRootManager">
+    <output url="file://$MODULE_DIR$/../eclipsebin" />
+    <output-test url="file://$MODULE_DIR$/../eclipsebin" />
+    <exclude-output />
+    <javadoc-paths>
+      <root url="" />
+    </javadoc-paths>
+    <content url="file://$MODULE_DIR$/..">
+      <sourceFolder url="file://$MODULE_DIR$/../src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../gensrc" isTestSource="false" generated="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../testsrc" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../groovytestsrc" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../resources" type="java-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/../web/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../web/gensrc" isTestSource="false" generated="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../web/testsrc" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../web/groovytestsrc" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../commonweb/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../commonweb/gensrc" isTestSource="false" generated="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../commonweb/testsrc" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../commonweb/groovytestsrc" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../acceleratoraddon/web/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../acceleratoraddon/web/gensrc" isTestSource="false" generated="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../acceleratoraddon/web/testsrc" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../acceleratoraddon/web/groovytestsrc" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../backoffice/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../backoffice/testsrc" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../backoffice/groovytestsrc" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../backoffice/resources" type="java-resource" />
+      <excludeFolder url="file://$MODULE_DIR$/../.externalToolBuilders" />
+      <excludeFolder url="file://$MODULE_DIR$/../.settings" />
+      <excludeFolder url="file://$MODULE_DIR$/../acceleratoraddon/web/addonsrc" />
+      <excludeFolder url="file://$MODULE_DIR$/../acceleratoraddon/web/commonwebsrc" />
+      <excludeFolder url="file://$MODULE_DIR$/../acceleratoraddon/web/testclasses" />
+      <excludeFolder url="file://$MODULE_DIR$/../backoffice/classes" />
+      <excludeFolder url="file://$MODULE_DIR$/../bower_components" />
+      <excludeFolder url="file://$MODULE_DIR$/../classes" />
+      <excludeFolder url="file://$MODULE_DIR$/../commonweb/addonsrc" />
+      <excludeFolder url="file://$MODULE_DIR$/../commonweb/commonwebsrc" />
+      <excludeFolder url="file://$MODULE_DIR$/../commonweb/testclasses" />
+      <excludeFolder url="file://$MODULE_DIR$/../eclipsebin" />
+      <excludeFolder url="file://$MODULE_DIR$/../jsTarget" />
+      <excludeFolder url="file://$MODULE_DIR$/../node_modules" />
+      <excludeFolder url="file://$MODULE_DIR$/../testclasses" />
+      <excludeFolder url="file://$MODULE_DIR$/../web/addonsrc" />
+      <excludeFolder url="file://$MODULE_DIR$/../web/commonwebsrc" />
+      <excludeFolder url="file://$MODULE_DIR$/../web/testclasses" />
+      <excludeFolder url="file://$MODULE_DIR$/../web/webroot/WEB-INF/classes" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="module-library" exported="">
+      <library>
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/../lib" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+        <jarDirectory url="file://$MODULE_DIR$/../lib" recursive="true" />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/../web/webroot/WEB-INF/lib" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+        <jarDirectory url="file://$MODULE_DIR$/../web/webroot/WEB-INF/lib" recursive="true" />
+      </library>
+    </orderEntry>
+  </component>
+</module>
