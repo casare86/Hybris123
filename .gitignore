@@ -1,7 +1,13 @@
 # Hybris123SnippetStart hybris123gitignore
 /log
 /temp
-/bin/
-!/bin/custom
+/bin/modules/
+/bin/platform/
 /roles
+.DS_STORE
+data/
+**/jalo/*
+**/Generated*
+**/eclipsebin/**
+.class
 # Hybris123SnippetEnd
