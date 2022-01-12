@@ -51,7 +51,7 @@
 		</itemtype>
 		<!-- Hybris123SnippetEnd -->
 
-
+		<!--update system using: ant updatesystem-->
 		<itemtype generate="true" code="Band" autocreate="true">
 			<deployment table="Bands" typecode="30268" />
 			<attributes>
