@@ -21,9 +21,9 @@ INSERT_UPDATE Product;code[unique=true];name;band(code);$supercategories;manufac
  
 # Insert Products
 INSERT_UPDATE Concert;code[unique=true];name;date[dateformat=dd.MM.yyyy];venue;concertType(code);baseProduct(code);$catalogVersion;$approved
-;20170101;Grand Tour - Munich;03.02.2017;"hybris Munich, Germany";openair;201701;
-;20170102;Grand Tour - London;21.03.2017;"hybris London, UK";openair;201701;
-;20170103;Grand Tour - Montreal;15.06.2017;"hybris Montreal, Canada";indoor;201701;
-;20170104;Grand Tour - Gliwice;04.11.2017;"hybris Gliwice, Poland";indoor;201701;
-;20170105;Grand Tour - Boulder;07.01.2018;"hybris Boulder, USA";indoor;201701;
+;20170101;Grand Tour - Munich;03.02.2022;"hybris Munich, Germany";openair;201701;
+;20170102;Grand Tour - London;21.03.2022;"hybris London, UK";openair;201701;
+;20170103;Grand Tour - Montreal;15.06.2022;"hybris Montreal, Canada";indoor;201701;
+;20170104;Grand Tour - Gliwice;04.11.2022;"hybris Gliwice, Poland";indoor;201701;
+;20170105;Grand Tour - Boulder;07.01.2022;"hybris Boulder, USA";indoor;201701;
 ;20170106;Grand Tour - Boston;;"hybris Boston, USA";;201701;

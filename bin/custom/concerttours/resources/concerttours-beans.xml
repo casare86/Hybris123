@@ -74,13 +74,16 @@
 		<property name = "genres" type="java.util.List&lt;String&gt;"/>
 		<property name = "tours" type="java.util.List&lt;concerttours.data.TourSummaryData&gt;"/>
 	</bean>
+
 	<bean class = "concerttours.data.ConcertSummaryData">
 		<description >Data object for a concert summary</description>
 		<property name = "id" type = "String" />
 		<property name = "date" type = "java.util.Date" />
 		<property name = "venue" type = "String" />
 		<property name = "type" type = "String" />
+		<property name = "countDown" type="Long"/>
 	</bean>
+
 	<bean class = "concerttours.data.TourData" >
 		<description>Data object representing a tour</description>
 		<property name = "id" type = "String" />

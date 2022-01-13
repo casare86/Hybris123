@@ -15,11 +15,12 @@
     </ul>
     <p>Tour History:</p>
     <ul>
+    <p> ${band.tours} </P>
         <c:forEach var="tour" items="${band.tours}">
             <li><a href="../tours/${tour.id}">${tour.tourName}</a>(number of concerts: ${tour.numberOfConcerts})</li>
         </c:forEach>
     </ul>
-    <a href="../bands">Back to Band List</a>
+    <a href="../bands">Back to Band List - test</a>
 </body>
 </html>
 <!-- Hybris123SnippetEnd -->
