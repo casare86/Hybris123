@@ -21,8 +21,7 @@
     <context:component-scan base-package="concerttours"/>
      <!-- Hybris123SnippetEnd -->
 
-    <!-- Hybris123SnippetStart injectingDefaultBandService -->
-
+     <!-- Hybris123SnippetStart injectingDefaultBandService -->
      <alias name = "defaultBandService" alias = "bandService" />
      <bean id = "defaultBandService" class = "concerttours.service.impl.DefaultBandService" >
          <property name = "bandDAO" ref = "bandDAO" />
@@ -111,7 +110,7 @@
 	       <aop:pointcut id="profiledMethods" expression="execution(* *(..))" />
 	  -->
 
-    
+   
      <!-- Hybris123SnippetStart injectingConcertDaysUntilAttributeHandler -->
     <bean id="concertDaysUntilAttributeHandler" class="concerttours.attributehandlers.ConcertDaysUntilAttributeHandler"/>
  	<!-- Hybris123SnippetEnd -->
@@ -121,7 +120,7 @@
       <property name="modelService" ref="modelService" />
     </bean>
  	<!-- Hybris123SnippetEnd -->
-    
+ 
     <!-- Hybris123SnippetStart injectingInterceptor -->
     <bean id="bandAlbumSalesInterceptor" class="concerttours.interceptors.BandAlbumSalesInterceptor" />
     <bean id="BandInterceptorMapping" class="de.hybris.platform.servicelayer.interceptor.impl.InterceptorMapping">
@@ -132,7 +131,19 @@
     	<property name="modelService" ref="modelService" />
 	</bean>
 	<!-- Hybris123SnippetEnd -->
-     <bean id="concerttoursSystemSetup" class="concerttours.setup.ConcerttoursSystemSetup">
+ 
+    <!-- Hybris123SnippetStart injectingNewService -->
+	<alias name="defaultNewsService" alias="newsService" />
+	<bean id="defaultNewsService" class="concerttours.service.impl.DefaultNewsService">
+	    <property name="newsDAO" ref="newsDAO" />
+	</bean>
+	<bean id="sendNewsJob" class="concerttours.jobs.SendNewsJob" parent="abstractJobPerformable">
+	    <property name="newsService" ref="newsService" />
+		<property name="configurationService" ref="configurationService" />
+	</bean>
+	<!-- Hybris123SnippetEnd -->
+ 
+    <bean id="concerttoursSystemSetup" class="concerttours.setup.ConcerttoursSystemSetup">
 
         <constructor-arg ref="concerttoursService"/>
     </bean>
@@ -142,5 +153,6 @@
         <property name="mediaService" ref="mediaService"/>
         <property name="flexibleSearchService" ref="flexibleSearchService"/>
     </bean>
+    
     
 </beans>
