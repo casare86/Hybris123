@@ -60,8 +60,12 @@
 					<persistence type="property" />
 				</attribute>
 				<attribute qualifier="name" type="java.lang.String">
+					<!-- InteliJ asks for a default value for obligated attributes
+						<defaultvalue></defaultvalue>
+					-->
 					<description>name of band</description>
 					<persistence type="property" />
+					<modifiers optional="false" unique="true" />
 				</attribute>
 				<attribute qualifier="history" type="localized:java.lang.String">
 					<description>history of band</description>
