@@ -2,7 +2,12 @@
   <extensions>
     <path dir='${HYBRIS_BIN_DIR}' autoload='false' />
     <!-- Extensions -->
-    <extension dir="../custom/concerttours"/>  
+    <extension dir="../custom/concerttours"/> 
+    <extension name="platformbackoffice"/>  
     <!-- /Extensions -->
+
+    <!-- ext-template -->
+    <extension name="yempty" />
+    <extension name="yhacext" />
   </extensions>
 </hybrisconfig>
