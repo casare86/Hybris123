@@ -9,3 +9,7 @@ INSERT_UPDATE Band;code[unique=true];name;albumSales;history
 ;A002;Sirken;2000;A cappella singing group based in Munich; an uplifting blend of traditional and contemporaneous songs
 ;A005;The Choir;49000;Enthusiastic, noisy gospel choir singing traditional gospel songs from the deep south
 ;A007;The Quiet;1200;English choral society specialising in beautifully arranged, soothing melodies and songs
+
+# Insert Products
+INSERT_UPDATE Product;code[unique=true];name;band(code);hashtag[lang=en];hashtag[lang=de];$supercategories;manufacturerName;manufacturerAID;unit(code);ean;variantType(code);$catalogVersion;$approved
+;201701;The Grand Little Tour;A001;GrandLittle;GrossWenig;;x;y;pieces;;Concert
